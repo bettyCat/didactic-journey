@@ -1,11 +1,16 @@
 body {
-	background-color: green;
+	background-color: #f8ecfd;
 	max-width: 800px;
 	margin: auto; <!---centruje cale body-->
 	
 }
 h1, h2, h3{
-	color: red;
+	color: #c264fe;
+	font-family: Verdana;
+}
+p{
+	font-family: Verdana;
+	font-size:10px;
 }
 ul{
 	list-style-type: none;
@@ -16,25 +21,29 @@ ul{
 	margin-top: 5px;
 	border: 1px solid;
 	border-radius: 5px;
-	background-color: gray;
+	background-color: #a82ffc;
 }
+
 #Menu {
 	text-align: left;
 	width: 19%;
 	float: left;
 	border: 1px solid;
+	background-color:#7a08fa;
+	
+	
 }
 #Main{
 	float: left;
 	width:80%;
+	background-color:#7a08fa;
 }
 #Footer{
-	text-align: center;
+	text-align: left;
 	
 }
 .article{
+	padding: 6px;
 	border: 1px dashed;
-	background-color: blue;
-	
 	
 }
